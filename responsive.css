@@ -1,0 +1,73 @@
+
+
+  /********************** RESPONSIVE ********************************/
+
+
+  @media screen and (max-width: 1700px) {
+    #legend {
+      right:5%!important;
+
+    }
+    #play{
+        width:60%;
+        left: 40%;
+    }
+
+  }
+  @media screen and (max-width: 1500px) {
+    #legend {
+      display:none;
+    }
+
+  }
+
+  @media screen and (max-width: 1340px) {
+
+    #play{
+        width:80%;
+        left: 50%;
+    }
+
+  } 
+
+  @media screen and (max-width: 1000px) {
+
+    #play{
+        width:70%;
+        left: 50%;
+    }
+    td{
+        width: 60px;
+        height: 60px;
+    }
+
+    div#space{
+        display: none;
+    }
+
+     h1 img{
+      display:none;
+    } 
+  }
+
+  @media screen and (max-width: 910px) {
+    h1{
+      font-size:1.5rem;
+    }
+
+    h1 span{
+      font-size:5rem;
+    }
+
+    #play p span{
+      font-size: 1.2rem;;
+    }
+
+    .flex.playerPlace {
+      margin-top: 30px;
+  }
+
+  div#console {
+    width: 35%;
+  }
+  }
